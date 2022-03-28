@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "vue-cli-2.9.0",
+    "vue-cli-5.0.1"
+  ],
   "scripts": {
-  	"create:v2": "./vue-cli@2.9.0/bin/vue",
-    "create:v3": "node vue-cli@5.0.1/bin/vue.js"
+    "create:v2": "./vue-cli-2.9.0/bin/vue",
+    "create:v3": "node vue-cli-5.0.1/bin/vue.js"
   },
   "author": "",
   "license": "ISC"

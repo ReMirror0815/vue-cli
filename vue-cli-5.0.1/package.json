@@ -87,7 +87,7 @@
     "cli"
   ],
   "license": "MIT",
-  "name": "@vue/cli",
+  "name": "vue-cli-5.0.1",
   "publishConfig": {
     "access": "public"
   },
